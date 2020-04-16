@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
   overflow: hidden;
@@ -12,8 +16,14 @@ ul {
   padding: 20px 20px;
 }
 
+.main_menu{
+  text-align: right;
+  padding-right: 50px;
+}
+
+
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -27,7 +37,7 @@ li a {
   line-height: 10px;
   border-color: rgba(0, 0, 0, .05);
   vertical-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 li a:hover {
@@ -35,9 +45,16 @@ li a:hover {
   background-color: #df4c73;
 }
 
+.top_bar{
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: white;
+}
+
 .parallax {
-  background-image: url("http://kimberlyortiz.com/wp-content/uploads/2020/04/WebHeader.jpeg");
-  min-height: 350px;
+  background-image: url("http://kimberlyortiz.com/wp-content/uploads/2020/04/header.jpeg  ");
+  min-height: 450px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +107,7 @@ h2{
   padding-top: 0;
 }
 
-ul{
+.skills_column ul{
   padding: 0;
 }
 

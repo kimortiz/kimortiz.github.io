@@ -64,8 +64,6 @@ li a:hover {
 
 .parallax_text {
   position: absolute;
-  /* z-index: 1000; */
-  /* ^ this was causing the overlap issue */
   top: 150px;
   left: 50%;
   margin-right: 15%;

@@ -8,9 +8,9 @@ body {
 
 h1 {
   font-family: "Roboto Slab";
+  font-size: 32px;
   font-weight: 500;
   letter-spacing: 1px;
-  font-size: 32px;
 }
 
 h2 {
@@ -35,6 +35,10 @@ ul {
 .logo {
   float: left;
   padding: 20px 20px;
+}
+
+.menu_wrapper {
+  padding:20px;
 }
 
 .main_menu {

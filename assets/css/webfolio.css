@@ -97,12 +97,6 @@ li a:hover {
   line-height: 140%;
 }
 
-h1 {
-  font-family: "Roboto Slab";
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-
 h2 {
   font: "Roboto";
   font-size: 18px;
@@ -112,10 +106,6 @@ h2 {
 
 .signature {
   width: 100px;
-}
-
-.my_skills h1 {
-  text-align: center;
 }
 
 .skills_section {
@@ -311,7 +301,7 @@ h5 {
   background-color: #e8e8ea;
 }
 
-.my_portfolio .my_skills .contact h1 {
+.my_portfolio, .my_skills, .contact h1 {
   text-align: center;
   text-transform: uppercase;
 }

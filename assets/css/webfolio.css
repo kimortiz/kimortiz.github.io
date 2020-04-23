@@ -12,6 +12,8 @@ h1 {
   font-weight: 500;
   letter-spacing: 1px;
   padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -301,9 +303,8 @@ h5 {
   background-color: #e8e8ea;
 }
 
-.my_portfolio.my_skills h1 {
-  text-align: center;
-  text-transform: uppercase;
+.parallax_text h1 {
+  text-align: left;
 }
 
 .portfolio_grid {
